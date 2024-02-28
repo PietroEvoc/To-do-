@@ -1,0 +1,49 @@
+.title {
+    text-align: center;
+    color: blue;
+    background-color: yellow;
+    display: inline-block;
+    border: 5px solid;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.titleContainer {
+    text-align: center;
+    
+}
+
+.mainList {
+    text-align: left;
+    font-size: 18px;
+}
+
+.mainTaskInput {
+    background-color: yellow;
+    border-color: blue;
+    width: 200px;
+    height: 22px;
+    font-size: 18px;
+}
+
+.inputLabel {
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.listContainer {
+    background-color: yellow;
+    border: 2px solid;
+    border-color: blue;
+    margin-top: 8px;
+}
+.mainContent {
+    text-align: center;
+    font-family: 'Anta-Regular', sans-serif;
+}
+
+@font-face {
+    font-family: 'Anta-Regular.ttf';
+    src: url('fonts/Anta-Regular.ttf') format('ttf');
+}
