@@ -77,6 +77,23 @@ let newWindow = window.open('', 'Options Window', 'width=300,height=200');
 let windowContent = `
 
     <style>
+
+    @font-face {
+        font-family: 'Anta-Regular';
+        src: url('public/fonts/Anta-Regular.ttf') format('truetype');
+        }
+    
+        @font-face {
+        font-family: 'Caveat-VariableFont_wght';
+        src: url('public/fonts/Caveat-VariableFont_wght.ttf') format('truetype');
+        }
+    
+    
+    
+        body {
+        font-family: 'Anta-Regular.ttf', 'Caveat-VariableFont_wght', Arial, Helvetica, sans-serif;
+        }
+    
     .dateInput {
         margin: 5px;
         border: 2px solid blue; /* Add border */
@@ -104,6 +121,7 @@ let windowContent = `
     }
 
     #saveButton {
+            font-family: 'Anta-Regular.ttf', 'Caveat-VariableFont_wght', Arial, Helvetica, sans-serif;
             color: blue;
             border: solid 2px;
             border-radius: 50%;
@@ -113,7 +131,7 @@ let windowContent = `
             margin: 5px;
             width: 100px;
             height: 50px;
-            font-size: 18px;
+            font-size: 22px;
             font-weight: bold;
         
         }
@@ -131,11 +149,13 @@ let windowContent = `
     .dl {
         color: blue;
         font-weight: bold;
+        font-size: 18px;
     }
 
     .tl {
         color: blue;
         font-weight: bold;
+        font-size: 18px;
     }
 
     
