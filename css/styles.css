@@ -21,15 +21,19 @@
 .mainTaskInput {
     background-color: yellow;
     border-color: blue;
+    border-radius: 20px;
     width: 200px;
     height: 22px;
     font-size: 18px;
+    padding: 5px;
+    
 }
 
 .inputLabel {
     color: blue;
     font-weight: bold;
     font-size: 20px;
+    
 }
 
 .listContainer {
@@ -37,6 +41,7 @@
     border: 2px solid;
     border-color: blue;
     margin-top: 8px;
+    border-radius: 20px;
 }
 .mainContent {
     text-align: center;
@@ -47,3 +52,76 @@
     font-family: 'Anta-Regular.ttf';
     src: url('fonts/Anta-Regular.ttf') format('ttf');
 }
+
+.doneButton {
+    color: blue;
+    border: solid 2px;
+    border-radius: 50%;
+    border-color: blue;
+    background-color: yellow;
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 5px;
+    font-weight: bold;
+
+}
+
+.doneButton:hover {
+    color: yellow;
+    background-color: blue;
+}
+
+.dateInput {
+    margin-left: 10px;
+    border: 1px solid blue; /* Add border */
+    border-radius: 4px; /* Add border radius */
+    outline: none; /* Remove outline */
+    transition: border-color 0.3s ease; /* Add transition for border color */
+    font-size: 16px;
+    height: 22px;
+}
+.dateInput:focus {
+    border-color: dodgerblue; /* Change border color on focus */
+}
+
+.timeInput {
+    margin-left: 5px;
+    border: 1px solid blue; /* Add border */
+    border-radius: 4px; /* Add border radius */
+    outline: none; /* Remove outline */
+    transition: border-color 0.3s ease; /* Add transition for border color */
+    font-size: 16px;
+    height: 22px;
+}
+
+li {
+    padding: 5px;
+}
+
+.dateSpan {
+    font-size: 12px;
+    padding-left: 5px;
+
+}
+.timeSpan {
+    font-size: 12px;
+    padding-left: 5px;
+
+}
+
+.optionsButton {
+    margin-left: 5px;
+    font-weight: bold;
+    border: solid 2px blue;
+    border-radius: 5px;
+    background-color: yellow;
+    color: blue;
+}
+
+.optionsButton:hover {
+    background-color: blue;
+    color: yellow;
+    
+}
+
+
